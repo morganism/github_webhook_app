@@ -2,7 +2,7 @@
   "name": "github_webhook_app",
   "version": "1.0.0",
   "description": "a GitHub App that responds to webhook events",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "server": "node app.js"
@@ -14,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/morganism/github_webhook_app/issues"
   },
